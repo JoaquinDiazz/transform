@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h1 {
+    margin-block:1em;
+}
+.container  .property{
+    padding: 1em;
+    border-radius: 5px;
+    background-color: rgb(22, 22, 22);
+    margin-block:1em ;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container  .property .propiedad {
+    color: rgb(106, 106, 219);
+}
+.container  .property .valor {
+    color: rgb(160, 116, 201);
+}
+.container  .property .square {
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform .5s;
+}

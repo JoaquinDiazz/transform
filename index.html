@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform Property</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.svg" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Transform Property</h1>
+        <div class="property">
+            <p>
+                <span class="propiedad">transform:</span>
+                <span class="valor"> translate</span>(-5px, -10px);
+            </p>
+            <div class="square" id="translate"></div>
+        </div>
+        <div class="property">
+            <p>
+                <span class="propiedad">transform:</span> 
+                <span class="valor">rotate</span>(15deg);
+            </p>
+            <div class="square" id="rotate"></div>
+        </div>
+        <div class="property">
+            <p>
+                <span class="propiedad">transform:</span> 
+                <span class="valor">skew</span>(-5deg, -10deg);
+            </p>
+            <div class="square"  id="skew"></div>
+        </div>
+        <div class="property">
+            <p>
+                <span class="propiedad">transform:</span> 
+                <span class="valor">scale</span>(0.7);
+            </p>
+            <div class="square" id="scale"></div>
+        </div>
+        <div class="property">
+            <p>
+                <span class="propiedad">transform:</span>
+                <span class="valor">matrix</span>(0, 1, 1, 0, 0, 0);
+            </p>
+            <div class="square"  id="matrix"></div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
